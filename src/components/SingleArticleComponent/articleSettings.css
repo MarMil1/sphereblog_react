@@ -1,0 +1,12 @@
+.article-settings {
+    display: flex;
+    align-items: center;
+}
+
+.share-article-button {
+    margin-right: 15px;
+}
+
+.archive-article-button {
+    margin-right: 15px;
+}

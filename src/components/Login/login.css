@@ -1,0 +1,135 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #3261ce0f;
+    height: 100vh;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 400px;
+    background: white;
+    box-shadow: rgb(199, 199, 199) 1px 1px 5px 1px;
+}
+
+.signin-signout-logo {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3261ce;
+}
+
+.input-form-title {
+    padding-left: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input-form-fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-field {
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+.input-email-space {
+    margin-bottom: 40px;
+}
+
+.input-field:focus {
+   outline: none;
+}
+
+.no-account-login-box {
+    display: flex;
+}
+
+.no-account-login {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.create-account {
+    margin-left: 5px;
+    font-style: #3261ce;
+    text-decoration: none;
+    color: blue;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.submit-button {
+    border: none;
+    background:#3261ce;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: right;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background: #2851af;
+}
+
+.login-signup-footer {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    padding-bottom: 7px;
+    padding-right: 5px;
+}
+
+.login-signup-footer-space {
+    margin-right: 15px;
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    display: flex;
+}
+
+.footer-space-copyright {
+    left: 0;
+    margin-left: 15px;
+}
+
+.footer-space-between {
+    margin-right: 15px;
+}

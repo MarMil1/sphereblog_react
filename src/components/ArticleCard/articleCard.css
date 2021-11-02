@@ -1,0 +1,58 @@
+.with-numbered-item {
+    display: flex;
+}
+
+.item-number {
+    margin-right: 12px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -7px;
+    color: #cacaca;
+}
+
+.article-card-img-name {
+    display: flex;
+    align-items: center
+}
+
+.article-card-img {
+    height: 22px;
+    width: 22px;
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.article-card-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.article-card-title {
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.article-card-info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7d7d7d;
+}
+
+.article-card-item:not(:last-child) {
+    margin-right: 7px;
+}
+
+.article-card-item:not(:first-child) {
+    margin-left: 7px;
+}
+
+.space {
+    margin-right: 5px;
+}
